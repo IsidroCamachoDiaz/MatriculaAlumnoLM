@@ -99,7 +99,7 @@ class InterfazID{
 function Main(){
  var bd=[];
  do{
- var opcion =Number(prompt("1-Matricular Alumno 2-Borrar Alumno 3-Listar Alumno 0-Salir Introduzca una opcion:"));
+ var opcion =Number(prompt("1-Matricular Alumno\n2-Borrar Alumno\n3-Listar Alumno\n0-Salir\n Introduzca una opcion:"));
  
  	switch(opcion){
 		case 1:
