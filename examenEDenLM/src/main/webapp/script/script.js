@@ -13,7 +13,7 @@ class alumnoPortatil{
 
 class interfazPortatil{
 	/**
-	 * Crea un tipo ALumnoPortatil y lo añade al Array
+	 * Crea un tipo AlumnoPortatil y lo añade al Array
 	 */
 	static matriculaAlumno(bd){
 		//Se pide los atributos
@@ -66,7 +66,7 @@ class interfazPortatil{
 		if(bd.length!=0){
 			//Se recorre el Array
 			for(var i=0;i<bd.length;i++) 
-				alert("ID del Alumno:"+bd[i].idAlumno+"\nNombre del Alumno:"+bd[i].nombre+"\nApellidos del Alumno:"+bd[i].apellidos+"\nTelefono del Alumno:"+bd[i].telefono+"\nID del Portatil:"+bd[i].idPortatil);
+				alert("ID del Alumno:"+bd[i].idAlumno+"\nNombre del Alumno: "+bd[i].nombre+"\nApellidos del Alumno: "+bd[i].apellidos+"\nTelefono del Alumno: "+bd[i].telefono+"\nID del Portatil: "+bd[i].idPortatil);
 		}
 		else
 			alert("No hay ningun alumno");
@@ -76,7 +76,7 @@ class interfazPortatil{
 
 class InterfazID{
 	/**
-	 * Calcula el di del Alumno a partir del Array
+	 * Calcula el id del Alumno a partir del Array
 	 */
 	static calculaid(bd){
 		//Si no esta vacia
